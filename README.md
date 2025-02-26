@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/codejeroo/social-links-profile]
-- Live Site URL: [https://codejeroo.github.io/social-links-profile/]
+- Solution URL: [https://github.com/codejeroo/recipe-page-main]
+- Live Site URL: [https://codejeroo.github.io/recipe-page-main/]
 
 
 ### Built with
@@ -41,11 +41,12 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use and apply ul and li. I also learned how to use hover effects in css.
+I learned how to use and implement media querries. It was hard.
+
 
 ### Continued development
 
-I will this as an opportunity to further master flexbox and I guess make my pages more dynamic. 
+I want to master responsive web design more.
 
 ## Author
 - Frontend Mentor - [(https://www.frontendmentor.io/profile/codejeroo)]
