@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F3E5D7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 1700px;
+    max-width: 736px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 24px;
+    gap: 40px;
+    background-color: white; 
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.recipe-info > .title {
+    font-family: "Young Serif", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    color: #312E2C;
+}
+    
+.recipe-info > .description{
+    font-family: "Outfit", sans-serif;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 100%;
+    color: #5F564D;
+
+}
+
+.omelette-picture > img {
+    border-radius: 12px;
+    height: auto;
+    width: 100%;
+}
+
+.recipe-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cooking-time {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #FFF7FB;
+    border-radius: 12px;
+}
+.cooking-time > .prep-time {
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 20px;
+    color: #7A284E;
+}
+
+.cooking-time-list {
+    font-family: "Outfit", sans-serif;
+    color: #5F564D;
+}
+
+ul > li , ol>li{
+    margin-bottom: 8px;
+    padding-left: 16px;
+}
+
+ul, ol{
+    margin-left: 24px;
+}
+
+.cooking-time > ul > li::marker {
+    color: #7A284E;
+    font-size: 0.8em;
+}
+
+.ingredients-title {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #854632;
+    margin-bottom: 24px;
+}
+
+.ingredients-list > li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color:#5F564D;
+}
+
+.ingredients-list > li::marker {
+    font-size: 0.8em;
+}
+
+.instructions-title {
+    font-family: "Young serif", sans-serif;
+    color: #854632;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.instructions-list > li {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color: #5F564D;
+}
+
+.instructions-list > li::marker {
+    color: #854632;
+    font-weight: 700;
+}
+
+.nutrition-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nutrition-title {
+    font-family: "Young serif", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    color: #854632;
+}
+
+.nutrition-description {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #5F564D;
+}
+
+.nutrition-facts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nutrient-container {
+    display: flex;
+    gap: 16px;
+    padding: 0px 32px;
+   justify-content: space-around;
+}
+
+.nutrient {
+    font-family: "Outfit", sans-serif;
+    line-height: 150%;
+    font-weight: 400;
+    color: #5F564D;
+    width: 50%;
+}
+
+.amount {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    line-height: 150%;
+    color: #854632;
+    width: 50%;
+}
+
+.divider {
+    width: 100%;
+    height: 0px;
+    border: solid 1px  #E3DDD7;
+}
+
+@media screen and (max-width: 380px) {
+    /* Adjust container padding and spacing */
+    .container {
+        padding: 40px 32px;
+        gap: 32px;
+    }
+
+
+    .omelette-picture {
+        height: 100%;
+        margin-top: -40px;
+        margin-right: -32px;
+        margin-left: -32px;
+    }
+
+    .omelette-picture > img {
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    .recipe-info > .title {
+        font-size: 36px;
+    }
+
+    .nutrient-container {
+        width: 311px;
+        height: 24px;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+    .container {
+        max-width: 616px;
+        min-height: 1884px;
+    }
+}
