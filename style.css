@@ -222,8 +222,12 @@ ul, ol{
     }
 
     .nutrient-container {
-        width: 311px;
-        height: 24px;
+        max-width: 311px;
+        min-height: 24px;
+    }
+
+    body {
+        background-color: #ffff;
     }
 
 
